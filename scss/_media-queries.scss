@@ -1,0 +1,71 @@
+@media (max-width: 679px) {
+    .mainDetails {
+        padding: 15px 15px;
+    }
+    .headshot img {
+        display: none;
+    }
+    .mainArea {
+        padding: 0 10px;
+        margin-bottom: 30px;
+    }
+    .wrapper {
+        width: 95%;
+        margin: 10px auto;
+        min-width: 280px;
+    }
+    /*.headshot img{
+      display: none;
+    }*/
+    .details, .contactDetails {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .sectionTitle, .sectionContent {
+        float: none;
+        width: 100%;
+    }
+    .sectionTitle {
+        margin-left: -2px;
+        font-size: 1.25em;
+    }
+}
+
+@media (min-width: 680px) and (max-width: 800px) {
+    .headshot {
+        display: none;
+    }
+}
+
+@media print {
+    .wrapper {
+        width: 100%;
+        body {
+            font-size: 14px;
+            background: #fff;
+        }
+    }
+    .details {
+        float: left;
+        h1 {
+            font-size: 1.75em;
+        }
+        h2 {
+            font-size: 1.3em;
+            line-height: 0.7em;
+        }
+        .keySkills {
+            li {
+                margin-bottom: 10px;
+                height: 20px;
+            }
+            em{
+            top: -1px;
+            }
+            .expand {
+            height: 20px;
+            }
+        }      
+    }
+} //  print

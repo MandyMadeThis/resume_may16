@@ -1,0 +1,19 @@
+{
+  "name": "resume_may16",
+  "version": "0.1.0",
+  "repository" : { 
+      "type" : "git"
+    , "url" : "git@github.com:MandyMadeThis/resume_may16.git"
+    },
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "css-mqpacker": "^5.0.1",
+    "grunt": "~1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-notify": "^0.4.3",
+    "grunt-postcss": "^0.8.0",
+    "postcss": "^5.0.14"
+  }
+}
